@@ -1,20 +1,21 @@
 
-# yal-server
+# bunyan-yal-server
 
-  Extensible log server for [YAL](https://github.com/segmentio/yal).
+  Extensible log server for [Bunyan](https://github.com/trentm/node-bunyan) + [bunyan-axon](https://github.com/sandfox/bunyan-axon)
+  forked from [YAL](https://github.com/segmentio/yal).
 
 ## Installation
 
 ```
-$ npm install yal-server
+$ npm install bunyan-yal-server
 ```
 
 ## Example
 
- Running YAL with a simple stdout plugin:
+ Running bunyan-yal-server with a simple stdout plugin:
 
 ```js
-var Server = require('yal-server');
+var Server = require('bunyan-yal-server');
 var server = new Server;
 
 server.bind('tcp://localhost:5000');
